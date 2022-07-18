@@ -2,6 +2,8 @@
 
 > Chrome Extension boilerplate created with React Typescript
 
+Full Article → https://www.bekk.christmas/post/2020/12/creating-a-chrome-extension-with-react-and-typescript
+
 ## Getting started
 
 Create a project based on this boilerplate.
