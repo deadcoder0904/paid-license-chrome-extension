@@ -1,6 +1,6 @@
 {
-  "name": "License Text",
-  "description": "Test paid licenses in a chrome extension",
+  "name": "Paid License",
+  "description": "Paid License Test in a Chrome Extension",
   "manifest_version": 3,
   "version": "1.0.0",
   "icons": {
