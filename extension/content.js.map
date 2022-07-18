@@ -1,0 +1,1 @@
+{"version":3,"file":"content.js","mappings":";;;;;;;AAAA;AACA","sources":["webpack://chrome-extension-react-typescript-boilerplate/./src/content.ts"],"sourcesContent":["// This file is injected as a content script\nconsole.log(\"Hello from content script!\")"],"names":[],"sourceRoot":""}
