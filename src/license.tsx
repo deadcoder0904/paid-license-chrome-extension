@@ -1,7 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 import License from './LicensePage'
 
 const mountNode = document.getElementById('license')
-ReactDOM.render(<License />, mountNode)
+if (!mountNode)
+  throw new Error(`Failed to find root element with id = 'license'`)
+const root = ReactDOM.createRoot(mountNode)
+root.render(<License />)

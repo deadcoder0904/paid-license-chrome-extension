@@ -61,9 +61,6 @@ const config = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.tsx', '.ts'],
-    alias: {
-      'react-dom': '@hot-loader/react-dom',
-    },
   },
   devtool: 'cheap-module-source-map',
   devServer: {
