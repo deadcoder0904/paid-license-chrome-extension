@@ -45,6 +45,8 @@ chrome.runtime.onMessage.addListener(
       if (val === 'mementomori') {
         chrome.storage.local.set({ paid_license: true })
         chrome.tabs.update({ url: 'popup.html' })
+      } else {
+        chrome.runtime.sendMessage({ type: 'invalid-license' })
       }
     }
   }
